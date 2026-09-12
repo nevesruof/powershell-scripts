@@ -1,16 +1,13 @@
-﻿
- ███▄ ▄███▓ ██▓ ███▄    █  ██▓     ██████   ██████ 
-▓██▒▀█▀ ██▒▓██▒ ██ ▀█   █ ▓██▒   ▒██    ▒ ▒██    ▒ 
-▓██    ▓██░▒██▒▓██  ▀█ ██▒▒██▒   ░ ▓██▄   ░ ▓██▄   
-▒██    ▒██ ░██░▓██▒  ▐▌██▒░██░     ▒   ██▒  ▒   ██▒
-▒██▒   ░██▒░██░▒██░   ▓██░░██░   ▒██████▒▒▒██████▒▒
-░ ▒░   ░  ░░▓  ░ ▒░   ▒ ▒ ░▓     ▒ ▒▓▒ ▒ ░▒ ▒▓▒ ▒ ░
-░  ░      ░ ▒ ░░ ░░   ░ ▒░ ▒ ░   ░ ░▒  ░ ░░ ░▒  ░ ░
-░      ░    ▒ ░   ░   ░ ░  ▒ ░   ░  ░  ░  ░  ░  ░  
-       ░    ░           ░  ░           ░        ░  
-                                                   
-Write-Host
-Write-Host 
+﻿Write-Host -ForegroundColor Red                             ███▄ ▄███▓ ██▓ ███▄    █  ██▓     ██████   ██████ 
+Write-Host -ForegroundColor Red                             ▓██▒▀█▀ ██▒▓██▒ ██ ▀█   █ ▓██▒   ▒██    ▒ ▒██    ▒ 
+Write-Host -ForegroundColor Red                             ▓██    ▓██░▒██▒▓██  ▀█ ██▒▒██▒   ░ ▓██▄   ░ ▓██▄   
+Write-Host -ForegroundColor Red                             ▒██    ▒██ ░██░▓██▒  ▐▌██▒░██░     ▒   ██▒  ▒   ██▒
+Write-Host -ForegroundColor Red                             ▒██▒   ░██▒░██░▒██░   ▓██░░██░   ▒██████▒▒▒██████▒▒
+Write-Host -ForegroundColor Red                             ░ ▒░   ░  ░░▓  ░ ▒░   ▒ ▒ ░▓     ▒ ▒▓▒ ▒ ░▒ ▒▓▒ ▒ ░
+Write-Host -ForegroundColor Red                             ░  ░      ░ ▒ ░░ ░░   ░ ▒░ ▒ ░   ░ ░▒  ░ ░░ ░▒  ░ ░
+Write-Host -ForegroundColor Red                             ░      ░    ▒ ░   ░   ░ ░  ▒ ░   ░  ░  ░  ░  ░  ░  
+Write-Host -ForegroundColor Red                             ░    ░           ░  ░           ░        ░  
+Write-Host                                              
 Write-Host -ForegroundColor White "By iTake (@cheatinformer) @ FM Forensics"
 
 $extensions = "*.exe","*.py","*.jar","*.json"
